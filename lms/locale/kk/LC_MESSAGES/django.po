@@ -1,0 +1,700 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-27 05:21+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: .\templates\core\about.html:10 .\templates\footer.html:13
+#: .\templates\header.html:27 .\templates\header.html:105
+msgid "О нас"
+msgstr "Біз жайлы"
+
+#: .\templates\core\about.html:27
+msgid "Мы"
+msgstr "Біз"
+
+#: .\templates\core\about.html:29
+msgid "гордимся"
+msgstr "мақтан тұтамыз"
+
+#: .\templates\core\about.html:33
+msgid ""
+"Наши выпускники добились больших результатов. Пришло время и Вам "
+"присоединиться к ним."
+msgstr ""
+"Біздің түлектеріміз үлкен нәтижелерге қол жеткізді. Сіздің де солардың "
+"қатарына қосылатын уақыт келді."
+
+#: .\templates\core\about.html:59
+msgid "Выпускники"
+msgstr "Түлек"
+
+#: .\templates\core\about.html:79
+msgid "Пройденных курсов"
+msgstr "Өткізілген курс"
+
+#: .\templates\core\about.html:104 .\templates\core\index.html:501
+msgid "Курсы"
+msgstr "Курс"
+
+#: .\templates\core\about.html:123
+msgid "Отзыва"
+msgstr "Пікір"
+
+#: .\templates\core\about.html:132
+msgid ""
+"Уже во время обучение, участники программы отметили следующие изменения:"
+msgstr "Оқу барысында бағдарлама қатысушылары мынадай өзгерістерді атап өтті:"
+
+#: .\templates\core\about.html:138
+msgid "Увеличили штат"
+msgstr "Қызметкерлер штатын"
+
+#: .\templates\core\about.html:138
+msgid "сотрудников"
+msgstr "ұлғайтты"
+
+#: .\templates\core\about.html:144
+msgid "Увеличили"
+msgstr "Клиенттер"
+
+#: .\templates\core\about.html:144
+msgid "количество"
+msgstr "санын"
+
+#: .\templates\core\about.html:144
+msgid "клиентов"
+msgstr "көбейтті"
+
+#: .\templates\core\about.html:150
+msgid "Смогли"
+msgstr "Орташа"
+
+#: .\templates\core\about.html:150
+msgid "увеличить"
+msgstr "чекті"
+
+#: .\templates\core\about.html:150
+msgid "средний чек"
+msgstr "ұлғайтты"
+
+#: .\templates\core\about.html:156
+msgid "Внедрили"
+msgstr "Автоматтандыру"
+
+#: .\templates\core\about.html:156
+msgid "инструменты"
+msgstr "құралдарын"
+
+#: .\templates\core\about.html:156
+msgid "автоматизации"
+msgstr "енгізді"
+
+#: .\templates\core\about.html:162
+msgid "Достигли"
+msgstr "Алға қойылған"
+
+#: .\templates\core\about.html:162
+msgid "поставленных"
+msgstr "мақсаттарға"
+
+#: .\templates\core\about.html:162
+msgid "целей"
+msgstr "қол жеткізді."
+
+#: .\templates\core\about.html:177
+msgid "Программа обучения ALMATY BUSINESS"
+msgstr "ALMATY BUSINESS оқу бағдарламасы"
+
+#: .\templates\core\about.html:178
+msgid ""
+"Образовательная Программа  Almaty Business для субъектов  малого и среднего "
+"бизнеса (далее – образовательная Программа) была инициирована Акиматом "
+"города Алматы в рамках Региональной программы развития предпринимательства "
+"Almaty Business-2025.​"
+msgstr ""
+"Шағын және орта бизнес субъектілеріне арналған Almaty Business білім беру "
+"бағдарламасына(бұдан әрі – Білім беру бағдарламасы) Алматы қаласының "
+"әкімдігіAlmaty Business-2025 кәсіпкерлікті дамытудың өңірлік бағдарламасы "
+"шеңберінде бастамашылық жасады."
+
+#: .\templates\core\about.html:179
+msgid ""
+"Целью образовательной Программы является обучение навыкам и компетенциям для "
+"результативного управления бизнесом и повышения устойчивости МСБ."
+msgstr ""
+"Білім беру бағдарламасының мақсаты бизнесті нәтижелі басқару және ШОБ "
+"тұрақтылығын арттыру үшін дағдылар мен құзыреттерге оқыту болып табылады."
+
+#: .\templates\core\about.html:180
+msgid ""
+"Ежегодно тысячи действующих предпринимателей города Алматы проходят обучение "
+"по Программе, где получают эффективные инструменты управления бизнесом, "
+"совершенствуют  навыки и личностные качества, необходимые для успешного "
+"предпринимательства, а также завязывают новые знакомства с единомышленниками."
+msgstr ""
+"Жыл сайын Алматы қаласының жұмыс істейтін мыңдаған кәсіпкерлері Бағдарлама "
+"бойынша оқудан өтіп,  бизнесті басқарудың тиімді құралдарын алады, табысты "
+"кәсіпкерлікке қажетті дағдылар мен жеке қасиеттерді жетілдіреді, сондай-ақ "
+"жаңа пікірлес адамдармен танысады."
+
+#: .\templates\core\about.html:181
+msgid ""
+"Обучение проводится в формате бизнес-практикума с применением теоретического "
+"материала и практической работы. Эксперты  образовательной Программы  - "
+"действующие предприниматели, готовые поделиться актуальной информацией и "
+"секретами успеха."
+msgstr ""
+"Оқыту теориялық материалды және практикалық жұмысты қолдана отырып, бизнес-"
+"практикум түрінде жүргізіледі. Білім беру бағдарламасының сарапшылары – "
+"өзекті ақпаратпен және табысқа жету құпияларымен бөлісуге дайын жұмыс "
+"істейтін кәсіпкерлер"
+
+#: .\templates\core\about.html:183
+msgid "Условия участия в образовательной программе"
+msgstr "Білім беру бағдарламасына қатысу шарттары"
+
+#: .\templates\core\about.html:185
+msgid ""
+"Участниками образовательной Программы обучения могут быть владельцы бизнеса "
+"и топ-менеджеры, желающие повысить свою квалификацию и сделать бизнес "
+"прибыльным."
+msgstr ""
+"Оқытудың білім беру бағдарламасының қатысушылары біліктілігін арттырып, "
+"бизнесін пайдалы етуді қалайтын бизнес иелері мен топ-менеджерлер болуы "
+"мүмкін."
+
+#: .\templates\core\about.html:186
+msgid ""
+"Условие для участия в образовательной Программе обучения  - бизнес должен "
+"быть действующим и  зарегистрированным в г.Алматы."
+msgstr ""
+"Оқытудың білім беру бағдарламасына қатысу шарты - Алматы қаласында бизнестің "
+"болуы және тіркелуі тиіс."
+
+#: .\templates\core\about.html:188
+msgid "Стоимость обучения"
+msgstr "Оқу құны"
+
+#: .\templates\core\about.html:189
+msgid "Обучение по Программе для предпринимателей проводится БЕСПЛАТНО."
+msgstr "Кәсіпкерлерге арналған Бағдарлама бойынша оқыту ТЕГІН жүргізіледі."
+
+#: .\templates\core\about.html:190 .\templates\core\index.html:25
+msgid "Программа обучения"
+msgstr "Оқу бағдарламасы"
+
+#: .\templates\core\about.html:193
+msgid "Образовательная программа обучения  включает три курса:"
+msgstr "Оқытудың білім беру бағдарламасына үш курс кіреді:"
+
+#: .\templates\core\about.html:195
+msgid "Курс «Эффективный бизнес»"
+msgstr "«Тиімді бизнес» курсы"
+
+#: .\templates\core\about.html:195
+msgid ""
+"предоставляет широкий спектр компетенций, необходимых для ведения бизнеса."
+msgstr "бизнесті жүргізу үшін қажетті құзыреттердің кең ауқымын ұсынады."
+
+#: .\templates\core\about.html:196
+msgid "Курс «Компетенции»"
+msgstr "«Құзыреттер» курсы"
+
+#: .\templates\core\about.html:196
+msgid "для желающих углубиться в определённую тематику."
+msgstr "белгілі бір тақырыпты тереңдетіп меңгеруді қалайтындарға арналған."
+
+#: .\templates\core\about.html:197
+msgid "Курс «Специализации»"
+msgstr "«Маманданулар» курсы"
+
+#: .\templates\core\about.html:197
+msgid ""
+"ориентирован на конкретные отраслевые ниши и подойдет тем, кто хочет "
+"разобраться в отраслевых спецификах ведения бизнеса."
+msgstr ""
+"нақты салалық тауашаларға бағытталған және бизнесті жүргізудің салалық "
+"ерекшеліктерін тереңінен түсінуді қалайтындарға сәйкес келеді."
+
+#: .\templates\core\about.html:199
+msgid ""
+"В программе охвачены самые популярные сферы деятельности и направления  "
+"бизнеса, даны ответы на самые сложные вопросы, возникающие на пути "
+"предпринимателя."
+msgstr ""
+"Бағдарламада ең танымал қызмет салалары мен бизнестің бағыттары қамтылған, "
+"кәсіпкердің жолында туындайтын ең күрделі сұрақтарға жауаптар берілген."
+
+#: .\templates\core\about.html:201
+msgid "Формат, длительность и язык обучения"
+msgstr "Оқыту түрі, ұзақтығы және тілі"
+
+#: .\templates\core\about.html:202
+msgid ""
+"Чтобы обучение было максимально эффективным и комфортным используются "
+"следующие форматы:"
+msgstr ""
+"Оқыту барынша тиімді және қолайлы болу үшін келесі форматтар пайдаланылады:"
+
+#: .\templates\core\about.html:204
+msgid ""
+"Офлайн обучение, подразумевает посещение занятий согласно расписанию в одно "
+"и то же время в конкретном месте, где нужно присутствовать лично."
+msgstr ""
+"Офлайн оқыту, кестеге сәйкес нақты жерде белгілі бір уақытта өткізілетін "
+"сабақтарға жеке қатысуды білдіреді."
+
+#: .\templates\core\about.html:205
+msgid ""
+"Онлайн обучение, проходит в виде онлайн-уроков, которые проводит эксперт по "
+"заранее оговоренному расписанию."
+msgstr ""
+"Онлайн оқыту, алдын ала келісілген кесте бойынша сарапшы жүргізетін онлайн-"
+"сабақтар түрінде өткізіледі."
+
+#: .\templates\core\about.html:206
+msgid ""
+"Асинхронный формат обучения (обучение по видеоурокам), подходит для тех, кто "
+"предпочитает пройти обучение самостоятельно на сайте www.edu.almatybusiness."
+"gov.kz в разделе «Видеоуроки»."
+msgstr ""
+"Келісілмеген оқыту форматы (бейне сабақтар бойынша оқыту), www.edu."
+"almatybusiness.gov.kz сайтында «Бейне сабақтар» бөлімінде өз бетінше оқуды "
+"қалайтындар үшін қолайлы."
+
+#: .\templates\core\about.html:209
+msgid ""
+"Длительность обучения зависит от выбранного формата обучения  - 3 занятия по "
+"1-3 часа."
+msgstr ""
+"Оқу ұзақтығы таңдап алынған оқу түріне байланысты – 1-3 сағаттан тұратын 3 "
+"сабақ."
+
+#: .\templates\core\about.html:210
+msgid "Обучение проходит на двух языках – казахский и русский."
+msgstr "Оқыту екі тілде – қазақ және орыс тілдерінде өтеді."
+
+#: .\templates\core\about.html:212
+msgid "Как записаться на обучение?"
+msgstr "Оқытуға қалай жазылуға болады?"
+
+#: .\templates\core\about.html:214
+msgid ""
+"Для участия в образовательной Программе на веб портале www.edu."
+"almatybusiness.gov.kz необходимо выбрать раздел «Заявка», который расположен "
+"в верхней части главной страницы. Оставить заявку. В течение трех рабочих "
+"дней  получите консультацию Координатора по тематикам курса, срокам и форме "
+"обучения."
+msgstr ""
+"Білім беру бағдарламасына қатысу үшін www.edu.almatybusiness.gov.kz веб "
+"порталында негізгі беттің жоғары жағында орналасқан «Өтінім» бөлімін таңдау "
+"керек. Өтінім қалдырыңыз. Үш жұмыс күнінің ішінде Үйлестіруші курс "
+"тақырыптары, оқу мерзімі және түрі бойынша кеңес береді."
+
+#: .\templates\core\about.html:216
+msgid "Что предприниматель получит после обучения"
+msgstr "Оқудан кейін кәсіпкер неге қол жеткізеді"
+
+#: .\templates\core\about.html:217
+msgid ""
+"Пройдя обучение по образовательной Программе, предприниматели получат новые "
+"теоретические знания и практический опыт, структурируют уже имеющийся опыт и "
+"знаний и превратят их в компетенции управления бизнесом."
+msgstr ""
+"Білім беру бағдарламасы бойынша оқудан өткеннен кейін кәсіпкерлер жаңа "
+"теориялық білім мен практикалық тәжірибе алады, бұрыннан бар тәжірибе мен "
+"білімді құрылымдайды және оларды бизнесті басқару құзыретіне айналдырады."
+
+#: .\templates\core\about.html:219
+msgid ""
+"Также, участники курса освоят инструменты для анализа эффективности бизнеса "
+"и повышения его результативности, что позволит принимать правильные и "
+"своевременные бизнес решения."
+msgstr ""
+"Сондай-ақ, курс қатысушылары бизнестің тиімділігін талдау және оның "
+"нәтижелілілігін арттыруға арналған құралдарды меңгереді, бұл бизнес "
+"шешімдерді дұрыс және уақтылы қабылдауға мүмкіндік береді."
+
+#: .\templates\core\about.html:220
+msgid ""
+"Обучение проходит без отрыва от текущей деятельности и участники программы "
+"смогут увидеть первые результаты уже во время обучения."
+msgstr ""
+"Оқыту ағымдағы қызметтен қол үзбей өткізіледі және бағдарлама қатысушылары "
+"оқу барысында алғашқы нәтижелерді көре алады."
+
+#: .\templates\core\expert.html:14
+msgid "Станьте экспертом"
+msgstr "Сарапшы болыңыз"
+
+#: .\templates\core\expert.html:27
+msgid ""
+"Станьте экспертом Программы обучения \"Almaty Business\" и создавайте лучшие "
+"бесплатные образовательные программы для предпринимателей города Алматы "
+"вместе с нами!"
+msgstr ""
+"«Almaty Business» оқу бағдарламасының сарапшысы болыңыз және бізбен бірге "
+"Алматы қаласының кәсіпкерлері үшін үздік тегін білім беру бағдарламаларын "
+"жасаңыз!"
+
+#: .\templates\core\expert.html:28
+msgid ""
+"Мы ищем экспертов по разным направлениям бизнеса. У нас есть готовые и "
+"адаптивные решения, проверенные методологии, а также - опытные эксперты-"
+"практики, которые сотрудничают с нами на протяжении всей истории проекта. "
+"Однако, мы растем вместе с бизнесом города и стремимся расширить нашу "
+"команду. Мы предоставляем онлайн и оффлайн площадки для проведения занятий. "
+"Более 4000 предпринимателей успешно завершили наши курсы и начали замечать "
+"изменения в показателях своего бизнеса уже во вовремя обучения."
+msgstr ""
+"Біз бизнестің әртүрлі бағыттары бойынша сарапшыларды іздейміз. Бізде дайын "
+"және бейімделген шешімдер, дәлелденген әдіснамалар, сондай-ақ жобаның бүкіл "
+"кезеңінде бізбен ынтымақтық жасайтын тәжірибелі практик-сарапшылар бар. "
+"Алайда, біз қала бизнесімен бірге өсіп, өз командамызды кеңейтуге ұмтыламыз. "
+"Біз сабақтар өткізу үшін онлайн және офлайн алаңдар ұсынамыз. 4000-нан астам "
+"кәсіпкер біздің курстарымызды сәтті аяқтап, оқу барысында өз бизнесінің "
+"көрсеткіштеріндегі өзгерістерді байқай бастады."
+
+#: .\templates\core\expert.html:30
+msgid "Что вы получите от участия в Программе:"
+msgstr "Сіз Бағдарламаға қатысып, одан не аласыз:"
+
+#: .\templates\core\expert.html:32
+msgid "Комьюнити экспертов и предпринимателей"
+msgstr "Сарапшылар мен кәсіпкерлер комьюнитиі"
+
+#: .\templates\core\expert.html:33
+msgid ""
+"Возможность регулярно развивать soft skills и совершенствоваться в своей "
+"сфере"
+msgstr "Soft skills үнемі дамыту және өз саласында жетілдіру мүмкіндігі"
+
+#: .\templates\core\expert.html:34
+msgid ""
+"Развитие личного бренда и новые публикации о вас в социальных сетях и на "
+"различных медиа площадках"
+msgstr ""
+"Жеке брендтің дамуы және әлеуметтік желілерде және әртүрлі медиа алаңдарда "
+"сіз туралы жаңа жарияланымдар"
+
+#: .\templates\core\expert.html:35
+msgid "Структурирование собственных знаний благодаря обучению других"
+msgstr "Басқаларды оқыту арқылы өз біліміңізді құрылымдау"
+
+#: .\templates\core\expert.html:38
+msgid ""
+"Если у Вас есть желание работать с нами, просим написать на почту "
+"almatybusiness.gov@gmail.com, либо на"
+msgstr ""
+"Егер Сіздің бізбен жұмыс істеуге ниетіңіз болса, almatybusiness.gov@gmail."
+"com почтасына немесе"
+
+#: .\templates\core\expert.html:38
+msgid "WhatsApp 8-777-313-75-75"
+msgstr "8-777-313-75-75"
+
+#: .\templates\core\expert.html:38
+msgid "Наши координаторы свяжутся с Вами!"
+msgstr ""
+"нөмірі арқылы WhatsApp-қа жазуыңызды өтінеміз. Біздің үйлестірушілер Сізбен "
+"хабарласады! "
+
+#: .\templates\core\index.html:28
+msgid "Almaty Business 2023"
+msgstr ""
+
+#: .\templates\core\index.html:32
+msgid "Обучение без границ!"
+msgstr "Шекарасыз оқу!"
+
+#: .\templates\core\index.html:32
+msgid "Мы обучаем, Вы зарабатываете!"
+msgstr "Біз оқытамыз, Сіздер табыс табасыздар!"
+
+#: .\templates\core\index.html:33
+msgid "Бесплатная программа обучения"
+msgstr "Алматы қаласының кәсіпкерлеріне арналған"
+
+#: .\templates\core\index.html:33
+msgid "для предпринимателей города Алматы"
+msgstr "тегін оқыту бағдарламасы"
+
+#: .\templates\core\index.html:58
+msgid "Это лучшее решение,"
+msgstr "Ең жақсы шешім,"
+
+#: .\templates\core\index.html:60
+msgid "ЕСЛИ ВЫ..."
+msgstr "ЕГЕР СІЗ..."
+
+#: .\templates\core\index.html:76
+msgid "Действующий"
+msgstr "Алматы қаласында жұмыс"
+
+#: .\templates\core\index.html:76
+msgid "предприниматель в Алматы"
+msgstr "істейтін кәсіпкер болсаңыз"
+
+#: .\templates\core\index.html:93
+msgid "Стремитесь создать прибыльный и"
+msgstr "Табысты және тұрақты"
+
+#: .\templates\core\index.html:93
+msgid "устойчивый бизнес"
+msgstr "бизнес құруды қаласаңыз"
+
+#: .\templates\core\index.html:109
+msgid "Следите за новыми"
+msgstr "Саладағы жаңа үрдістерді"
+
+#: .\templates\core\index.html:109
+msgid "трендами в отрасли"
+msgstr "қадағалайтын болсаңыз"
+
+#: .\templates\core\index.html:125
+msgid "Мечтаете зарабатывать"
+msgstr "Көбірек табыс табуды"
+
+#: .\templates\core\index.html:125
+msgid "больше"
+msgstr "қалайтын болсаңыз"
+
+#: .\templates\core\index.html:142
+msgid "Хотите разобраться, почему"
+msgstr "Өз шығыстарыңыздың неліктен"
+
+#: .\templates\core\index.html:142
+msgid "ваши расходы превышают доходы"
+msgstr "кірістен асып кететінін түсінгіңіз келсе"
+
+#: .\templates\core\index.html:158
+msgid "Решили прокачать"
+msgstr "Өз дағдыларыңызды"
+
+#: .\templates\core\index.html:158
+msgid "свои навыки"
+msgstr "дамытқыңыз келсе"
+
+#: .\templates\core\index.html:174
+msgid "Описание"
+msgstr "Курстың"
+
+#: .\templates\core\index.html:176
+msgid "курса"
+msgstr "сипаты"
+
+#: .\templates\core\index.html:212
+msgid "Как стать участником"
+msgstr "Бағдарламаға қалай"
+
+#: .\templates\core\index.html:214 .\templates\core\index.html:261
+msgid "программы"
+msgstr "қатысуға болады"
+
+#: .\templates\core\index.html:223
+msgid "Шаг 1"
+msgstr "1-қадам"
+
+#: .\templates\core\index.html:224
+msgid ""
+"Подать заявку (убедившись, что контактные данные указаны корректно и номер "
+"телефона привязан к WhatsApp)"
+msgstr ""
+"Өтінім беру (байланыс деректерінің дұрыс көрсетілгенін тексеріп, "
+"телефон нөмірінің WhatsApp желісіне бекітілгеніне көз жеткізу)"
+
+#: .\templates\core\index.html:234
+msgid "Шаг 2"
+msgstr "2-қадам"
+
+#: .\templates\core\index.html:235
+msgid "В течение 3-х дней с вами свяжется менеджер и пригласит на обучение"
+msgstr "3 күннің ішінде сізге менеджер хабарласады және оқуға шақырады"
+
+#: .\templates\core\index.html:257
+msgid "Эксперты"
+msgstr ""
+
+#: .\templates\core\index.html:310 .\templates\footer.html:15
+#: .\templates\header.html:29 .\templates\header.html:107
+msgid "Видеоуроки"
+msgstr "Cабақтар"
+
+#: .\templates\core\index.html:320
+msgid "Все"
+msgstr "Барлығы"
+
+#: .\templates\core\index.html:373
+#, fuzzy
+#| msgid "Отзывы"
+msgid "отзывы"
+msgstr "Пікірлер"
+
+#: .\templates\core\index.html:430
+msgid "Станьте"
+msgstr "Сарапшы"
+
+#: .\templates\core\index.html:432
+msgid "экспертом"
+msgstr "болыңыз"
+
+#: .\templates\core\index.html:436
+#, fuzzy
+#| msgid "Программа обучения"
+msgid "программы обучения"
+msgstr "Оқу бағдарламасы"
+
+#: .\templates\core\index.html:442
+msgid "Присоединяйтесь"
+msgstr "Бізге қосылыңыз"
+
+#: .\templates\core\index.html:466
+msgid "Подать Заявку"
+msgstr "Өтінім беру"
+
+#: .\templates\core\index.html:525
+msgid "Закрыть"
+msgstr "Жабу"
+
+#: .\templates\footer.html:12 .\templates\header.html:26
+#: .\templates\header.html:104
+msgid "Главная"
+msgstr "Негізгі бет"
+
+#: .\templates\footer.html:16 .\templates\header.html:30
+#: .\templates\header.html:108
+msgid "Отзывы"
+msgstr "Пікірлер"
+
+#: .\templates\footer.html:31
+msgid "Все права защищены."
+msgstr "Барлық құқықтар қорғалған."
+
+#: .\templates\footer.html:36
+msgid "Пользовательское соглашение"
+msgstr "Пайдаланушы келісімі"
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:5
+msgid "Select an image to embed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:27
+msgid "Browse for the image you want, then click 'Embed Image' to continue..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:29
+msgid ""
+"No images found. Upload images using the 'Image Button' dialog's 'Upload' "
+"tab."
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:50
+msgid "Images in: "
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:62
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:80
+msgid "Embed Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:146
+msgid "Play Slideshow"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:147
+msgid "Pause Slideshow"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:148
+msgid "&lsaquo; Previous Photo"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:149
+msgid "Next Photo &rsaquo;"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:150
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:151
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_addanother\templates\django_addanother\related_widget_wrapper.html:9
+#, python-format
+msgid "Change selected %(model)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_addanother\templates\django_addanother\related_widget_wrapper.html:11
+msgid "Edit"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_addanother\templates\django_addanother\related_widget_wrapper.html:18
+#, python-format
+msgid "Add another %(model)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_addanother\templates\django_addanother\related_widget_wrapper.html:20
+msgid "Add"
+msgstr ""

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+    PDF
+  </title>
+</head>
+<body>
+
+  <div class="uk-flex uk-flex-center">
+    <div class="uk-card uk-card-default uk-card-body">
+      <h3 class="uk-card-title">Заявка на участие в программе обучения «Almaty Business-2024»</h3>
+      <p>Поля, отмеченные * - обязательные</p>
+      <dl class="uk-description-list">
+        <dt>1.	ФИО участника</dt>
+        <dd>{{ object.full_name }}</dd>
+        <dt>2.	Контактный телефон</dt>
+        <dd>{{ object.phone_number }}</dd>
+        <dt>3.	Электронный адрес</dt>
+        <dd>{{ object.email }}</dd>
+        <dt>4.	Наименование компании</dt>
+        <dd>{{ object.company_name }}</dd>
+        <dt>5.	БИН/ИИН компании</dt>
+        <dd>{{ object.identification_number }}</dd>
+        <dt>6.	Сфера деятельности</dt>
+        <dd>{{ object.activity.name }}</dd>
+        <dt>7.	Опишите, чем именно занимается Ваша компания (пример: продаем в розницу детскую одежду в Instagram) *</dt>
+        <dd>{{ object.description }}</dd>
+        <dt>8.	Сколько сотрудников работает в Вашем бизнесе</dt>
+        <dd>{{ object.employee_count }}</dd>
+        <dt>9.	Количество полных лет работы бизнеса</dt>
+        <dd>{{ object.number_of_completed_years }}</dd>
+        <dt>10.	Cреднемесячное количество клиентов</dt>
+        <dd>{{ object.is_recording_customers }}</dd>
+        <dt>11.	Cреднемесячного чек</dt>
+        <dd>{{ object.is_recording_average_check }}</dd>
+        <dt>12.	Cистемы автоматизации</dt>
+        <dd>{{ object.automation_system.name }}</dd>
+        <dt>13.	Проблемы или задачи бизнеса</dt>
+        <dd>{{ object.problem_or_task.name }}</dd>
+        <dt>14.	Ожидаемые результаты от участия в Программе «Almaty Business 2024»</dt>
+        <dd>{{ object.participation_purpose.name }}</dd>
+        <dt>15.	Напишите промокод</dt>
+        <dd>{{ object.promo_code|default:'' }}</dd>
+      </dl>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,388 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+{% block body %}
+  <main>
+        <!-- <img src="@img/road-1072823.jpg" alt=""> -->
+        <!-- <img src="@img/user.png" alt=""> -->
+
+        <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" style="background-image:url({% static 'img/about.jpg' %})">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="page__title-wrapper mt-5">
+                            <h3 class="page__title">Компетенция</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="brand__area pb-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="about__content mt-5">
+                        <div class="blog__wrapper">
+                            <div class="blog__text text-justify mb-5">
+                                <h3 class="text-center">Компетенция</h3>
+                                <p class="text-justify">Бизнес-курс по компетенции - это программа обучения, которая помогает развивать определенные компетенции у участников, чтобы они могли лучше справляться со своими задачами в рабочей среде.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"></div>
+            </div>
+        </section>
+
+        <!-- section datePicker -->
+
+
+
+        <section class="services__area pb-5">
+            <div class="container">
+                <div class="section__title-wrapper section-padding mb-5 text-center">
+                    <h2 class="section__title">Выбрать
+                        <span class="yellow-bg">
+                        курс <span class="material-symbols-outlined" style="font-size: 40px; margin-left:-20px; position:relative; top:-12px; color: #63aa48;">school</span>
+                        <img src="img/yellow-bg.png" alt="">
+                        </span>
+                    </h2>
+                </div>
+                <div class="row text-center text-capitalize">
+                    <div class="col-3">курсы</div>
+                    <div class="col-2">занятие</div>
+                    <div class="col-5">описание</div>
+                    <div class="col-2">даты</div>
+                </div>
+                <div class="row">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3 col-lg-3 col-xxl-3 col-xl-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                          <button class="text-start btn-outline btn btn-course active" id="v-pills-1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true">Маркетинг и реклама</button>
+                          <button class="text-start btn-outline btn btn-course" id="v-pills-2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false">Управление финансами</button>
+                          <button class="text-start btn-outline btn btn-course" id="v-pills-3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false">Подбор и управление персоналом</button>
+                          <button class="text-start btn-outline btn btn-course" id="v-pills-4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false">Авторское право</button>
+                          <button class="text-start btn-outline btn btn-course" id="v-pills-5-tab" data-bs-toggle="pill" data-bs-target="#v-pills-5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false">Основы работы с маркетплейсами</button>
+                          <button class="text-start btn-outline btn btn-course" id="v-pills-6-tab" data-bs-toggle="pill" data-bs-target="#v-pills-6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false">Автоматизация бизнеса</button>
+                          <button class="text-start btn-outline btn btn-course" id="v-pills-7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false">Государственные закупки </button>
+                        </div>
+                        <div class="tab-content col-lg-9 col-xxl-9 col-xl-9" id="v-pills-tabContent">
+                          <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab" tabindex="0">
+                            <div class="row course_info">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9" style=" border-right: 1px solid #63aa48;">
+                                    <div class="row" style="border-bottom: 1px solid #63aa48;">
+                                        <div class="col-3"><b>Разработка и реализация подходящей маркетинговой стратегии</b></div>
+                                        <div class="col-9" style="text-align: justify;">Почему так необходимо сформировать эффективную маркетинговую стратегию? Как рассчитать бюджет? Как маркетинговая стратегия влияет на доходы вашего бизнеса. Что нужно знать для разработки эффективной маркетинговой стратегии. Как маркетинговая стратегия нужна МСБ и чем она отличается от стратегии крупного бизнеса. Какие ошибки могут затормозить развитие бизнеса.</div>
+                                    </div>
+                                    <div class="row" style="border-bottom: 1px solid #63aa48;">
+                                        <div class="col-3"><b>Эффективное продвижение продукта</b></div>
+                                        <div class="col-9" style="text-align: justify;">Инструменты маркетинга соответствующие вашей стратегии. Какие площадки выбрать для продвижения. Поэтапное внедрение стратегии с чего начать как определить приоритет. Кто в компании должен занимается маркетингом на разных этапах развития. </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3"><b>Управление маркетингом</b></div>
+                                        <div class="col-9" style="text-align: justify;">Как отслеживать эффективность стратегии? Показатели эффективности стратегии. Влияние управленческих решений на маркетинговую стратегию. Построение взаимодействия маркетинга с другими сферами бизнеса.</div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 position-relative">
+
+                                    <div class="form-check">
+                                        <input class="form-check-input form-check-it" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            <b>Сессия 1</b><br>
+                                            02.03, 06.03, 09.03
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input form-check-it" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            <b>Сессия 2</b>
+                                            13.03, 15.03, 17.03
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input form-check-it" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            <b>Сессия 2</b>
+                                            27.03, 28.03, 31.03
+                                        </label>
+                                      </div>
+                                    <div class="position-absolute bottom-0 end-0 w-100">
+                                        <p class="text-center">Выберети дату для заполнение заявки</p>
+                                        <!-- <a href="questionary.html" class="btn text-center align-items-center" style="color:#fff; background:
+                                        #63aa48; width: 100%; height: 100%;font-size: 18px;">Перейти к анкете</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                          <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab" tabindex="0">
+                            <div class="row course_info">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9">
+                                    <div class="row" style="border-bottom: 1px solid #63aa48; border-right: 1px solid #63aa48;">
+                                        <div class="col-3">Финансовая отчетность и финансовое планирование</div>
+                                        <div class="col-9" style="text-align: justify;">Основная терминология. Виды финансовой отчетности, оценка эффективности бизнеса. Снижение рисков  при финансовом планировании.</div>
+                                    </div>
+                                    <div class="row" style="border-bottom: 1px solid #63aa48; border-right: 1px solid #63aa48;">
+                                        <div class="col-3">Составление финансовой модели. Финансовый раздел бизнес плана</div>
+                                        <div class="col-9" style="text-align: justify;">Для чего необходима финансовая модель. Ключевые показатели и их значение.Требования к финансовой модели при оформлении бизнес плана. Оптимизация затрат</div>
+                                    </div>
+                                    <div class="row" style="border-right: 1px solid #63aa48;">
+                                        <div class="col-3">Стратегические инвестиционные решения</div>
+                                        <div class="col-9" style="text-align: justify;">На что направить инвестиции? Как привлечь их в бизнес? </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 position-relative">
+
+
+                                    <div class="form-check">
+                                        <input class="form-check-input form-check-it" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            <b>Сессия 1</b><br>
+                                            02.03, 06.03, 09.03
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input form-check-it" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            <b>Сессия 2</b>
+                                            13.03, 15.03, 17.03
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input form-check-it" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            <b>Сессия 2</b>
+                                            27.03, 28.03, 31.03
+                                        </label>
+                                      </div>
+
+
+                                    <div class="position-absolute bottom-0 end-0 w-100">
+                                        <p class="text-center">Выберети дату для заполнение заявки</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9">Описание курса2</div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3">даты проведение</div>
+                            </div>
+                        </div>
+                          <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9">Описание курса3</div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3">даты проведение</div>
+                            </div>
+                        </div>
+                          <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9">Описание курса4</div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3">даты проведение</div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- section datePicker end -->
+        <section class="brand__area pt-5 not_checked__block" id="questionary">
+            <div class="container">
+
+                <div class="section__title-wrapper section-padding mb-5 text-center">
+                    <h2 class="section__title">
+                    <span class="yellow-bg">
+                        ЗАЯВКА
+                        <img src="img/yellow-bg.png" alt="">
+                    </span>
+                </h2>
+                <h4>
+                    участника Программы обучения на безвозмездной основе <br>
+                        для действующих предпринимателей города Алматы <br>
+                </h4>
+                </div>
+
+                <div class="row">
+                    <form class="row g-3 pb-5">
+                        <div class="col-md-6">
+                          <label for="full-name" class="form-label">Ф.И.О</label>
+                          <input type="email" class="form-control" id="full-name">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="phone" class="form-label">Телефон</label>
+                          <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="col-6">
+                          <label for="inputAddress" class="form-label">Электронный адрес</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Панфилова 7, кв 131">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="org-name" class="form-label">Наименование компании</label>
+                            <input type="email" class="form-control" id="org-name">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="gov-id" class="form-label">ИИН/БИН</label>
+                            <input type="text" class="form-control" id="gov-id">
+                          </div>
+
+
+
+                         <div class="col-md-6">
+                          <label for="field-activity" class="form-label">Сфера деятельности</label>
+                          <select id="field-activity" class="form-select">
+                            <option>Ритейл (торговля)</option>
+                              <option>Общественное питание </option>
+                              <option value="">Услуги индустрии красоты </option>
+                              <option value="">Швейное производство </option>
+                              <option value="">Услуги в сфере туризма </option>
+                              <option value="">Образовательные услуги </option>
+                              <option value="" selected>Высокотехнологичное производство:</option>
+                              <option value="">IT индустрия </option>
+                              <option value="">Предпринимательство в сфере творчества и креатива </option>
+                              <option value="">Прочие услуги </option>
+                              <option value="">Прочее производство </option>
+                          </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <!-- if  -->
+                            <label for="field-activity" class="form-label">Подробнее</label>
+                            <select id="field-activity" class="form-select">
+                              <option>автомобилестроение,  </option>
+                              <option>производство электрического оборудования,  </option>
+                              <option value="">фармацевтика и производство изделий медицинского назначения </option>
+                              <option value="">производство компьютеров </option>
+                              <option value="">производство электронного оборудования и летательных аппаратов </option>
+                              <option value="">мебельная промышленность </option>
+                              <option value="">пищевая промышленность</option>
+                              <option value="">производство строительных материалов</option>
+                              <option value="">прочее </option>
+                            </select>
+                          </div>
+
+                          <div class="col-md-6">
+                            <label for="org-info" class="form-label">Опишите, чем именно занимается Ваша компания</label>
+                            <input type="text" class="form-control" id="org-info">
+                          </div>
+
+                          <div class="col-md-6">
+                            <label for="org-years" class="form-label">Количество полных лет работы бизнеса?</label>
+                            <input type="text" class="form-control" id="org-years">
+                          </div>
+
+                          <div class="col-md-6">
+                            <label for="org-employees" class="form-label">Количество сотрудников? </label>
+                            <input type="text" class="form-control" id="org-employees">
+                          </div>
+
+                          <div class="col-6">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="accounting">
+                              <label class="form-check-label" for="accounting">
+                                Ведете ли Вы учет клиентов Вашего бизнеса?
+                              </label>
+                            </div>
+                          </div>
+
+                          <div class="col-6">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="audit">
+                              <label class="form-check-label" for="audit">
+                                Ведете ли Вы учет среднего чека на 1 клиента?
+                              </label>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <label for="field-activity" class="form-label">Применяете ли Вы автоматизацию в своей деятельности.</label>
+                            <select id="field-activity" class="form-select">
+                                <option>Нет</option>
+                                <option>Трехкомпонентная система (ТИС)</option>
+                                <option value="">Кассовый аппарат</option>
+                                <option value="">1С бухгалтерия</option>
+                                <option value="">CRM система</option>
+                                <option value="">Автоматизация документооборота </option>
+                                <option value="">Автоматизация технологического процесса</option>
+                                <option value="">Другое </option>
+                            </select>
+                          </div>
+
+                          <div class="col-md-6">
+                              <label for="org-activity" class="form-label">Другое</label>
+                              <input type="text" class="form-control" id="org-activity">
+                            </div>
+
+                            <!-- проблемы бизнеса -->
+
+                          <div class="col-md-6">
+                            <label for="field-trouble" class="form-label">Определите проблемы или задачи бизнеса, которые Вы хотели бы решить в рамках программы обучения: </label>
+                            <select id="field-trouble" class="form-select">
+                                <option>Финансовые проблемы </option>
+                                <option>Маркетинговые проблемы </option>
+                                <option value="">Проблемы подбора и управления персоналом </option>
+                                <option value="">Проблемы менеджмента </option>
+                                <option value="">Отсутствие планирования</option>
+                                <option value="">Другое </option>
+                            </select>
+                          </div>
+
+                          <div class="col-md-6 pt-4">
+                              <label for="org-trouble" class="form-label">Другое</label>
+                              <input type="text" class="form-control" id="org-trouble">
+                            </div>
+
+                            <!-- проблемы бизнеса -->
+                            <!-- цель участие -->
+
+                          <div class="col-md-6">
+                            <label for="field-trouble" class="form-label">Цель Вашего участия в Программе обучения «Almaty Business 2024»:</label>
+                            <select id="field-trouble" class="form-select">
+                                <option>Научиться продавать свои товары и услуги</option>
+                                <option>Подбор и управление персоналом, мотивация персонала</option>
+                                <option value="">Финансовая отчетность и планирование</option>
+                                <option value="">Юридические аспекты бизнеса</option>
+                                <option value="">Финансовые и нефинансовые меры государственной поддержки </option>
+                                <option value="">Электронная коммерция</option>
+                                <option value="">Государственные закупки и тендера</option>
+                                <option value="">Экспорт товаров</option>
+                                <option value="">Отраслевая специфика</option>
+                                <option value="">Сертификация, стандартизация и авторское право</option>
+                                <option value="">Другое</option>
+                            </select>
+                          </div>
+
+                          <div class="col-md-6">
+                              <label for="org-trouble" class="form-label">Другое</label>
+                              <input type="text" class="form-control" id="org-trouble">
+                            </div>
+
+                            <!-- цель участие -->
+
+
+
+
+
+                        <div class="col-12">
+                            <label for="field-activity" class="form-label"> На каком языке Вы хотите пройти обучение: </label>
+                            <select id="field-activity" class="form-select">
+                                <option>Қазақ тілі</option>
+                                <option>Русский язык</option>
+                            </select>
+                          </div>
+                        <div class="col-12 d-flex justify-content-end">
+                            <!-- <div class="col-md-4"> -->
+                                <button type="button" id="btn-submit" class="btn col-md-4" style="background-color : #63aa48; color: #fff;">Отправить</button>
+                            <!-- </div>  -->
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+{% endblock body %}

@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block body %}
+    <main>
+        <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" style="background-image:url({% static 'img/DSC03222.png' %})">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="page__title-wrapper mt-5">
+                            <h3 class="page__title">Видеоуроки</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brand__area pb-5" style="padding-top: 130px;">
+            <div class="container">
+                <div class="row">
+                    <div class="about__content mt-5">
+                        <div class="blog__wrapper">
+                            <div class="blog__text text-justify mb-5">
+                                <h3 class="text-center">Видеоуроки</h3>
+                                <p class="text-justify">Этот курс познакомит вас с основами предпринимательства, включая создание бизнес-плана, поиск финансирования и управление бизнесом.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row"></div>
+            </div>
+        </section>
+
+                <!-- section course  -->
+                <!-- section course  -->
+            <section class="course__area" style="padding:30px 0 20px;">
+                <div class="container">
+
+                    <div class="d-flex flex-column">
+
+                        <div class="row ">
+                            <div class="section__title-wrapper
+                                justify-content-center d-flex"
+                                style="margin-bottom:60px">
+                                <h2 class="section__title">
+                                    <span class="yellow-bg yellow-bg-big">
+                                        Видеоуроки
+                                        <img src="{% static 'img/yellow-bg.png' %}" alt="">
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <!-- filter apanel -->
+                        <div class="row">
+                            <div class="course__menu"
+                                style="margin-bottom:60px">
+                                <div class="masonary-menu filter-button-group
+                                    d-flex justify-content-between">
+                                    <button class=" d-block" data-filter="*">
+                                        Все
+                                        <!-- <span class="tag">
+                                        Новинки
+                                    </span> -->
+                                    </button>
+                                  {% for video_course_category in video_course_categories %}
+                                    <button class="d-block" data-filter="{{ video_course_category.id }}">
+                                      {{ video_course_category.name }}
+                                    </button>
+                                  {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <!-- filter apanel end-->
+
+                    </div>
+
+                    <div class="row grid area_filter">
+                        <!-- on block course -->
+                      {% for video_course in object_list %}
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item {{ video_course.id }}">
+                          <div class="course__item white-bg fix" style="margin-bottom:30px">
+                            <div class="course__thumb w-img p-relative fix">
+                                <iframe width="100%" height="250"
+                                    src="{{ video_course.link }}"
+                                    title="YouTube video player"
+                                    frameborder="0" allow="accelerometer;
+                                    autoplay; clipboard-write;
+                                    encrypted-media; gyroscope;
+                                    picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                                <div class="course__tag">
+                                    <a href="#">{{ video_course.video_course_category }}</a>
+                                </div>
+                            </div>
+                            <div class="course__content">
+                                    <div class="course__meta d-flex
+                                        align-items-center
+                                        justify-content-between">
+                                        <div class="course__lesson">
+                                            <span class="d-flex flex-row
+                                                justify-content-between
+                                                align-items-center">
+                                                <i
+                                                    class="material-symbols-outlined">import_contacts</i>
+                                                {{ video_course.name }}
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h3 class="course__title">
+                                        <a href="#">
+                                            {{ video_course.description }}
+                                        </a>
+                                    </h3>
+                                </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                </div>
+            </section>
+                <!-- section course  end-->
+    </main>
+{% endblock body %}

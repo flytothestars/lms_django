@@ -1,0 +1,532 @@
+{% extends 'base.html' %}
+
+{% load static i18n widget_tweaks %}
+
+
+  {% block head %}
+  {% endblock head %}
+  {% block body %}
+
+      {% block header %}
+      {% endblock header %}
+        <main>
+            <!-- section hero -->
+            <section class="hero__area hero__height hero__height-2 d-flex align-items-center blue-bg-3 p-relative fix">
+                <div class="hero__shape">
+                    <img class="hero-1-circle-2" src="{% static 'img/hero-1-circle-2.png' %}" alt="">
+                    <img class="hero-1-dot-2" src="{% static 'img/hero-1-dot-2.png' %}" alt="">
+                </div>
+                <div class="container">
+                    <div class="hero__content-wrapper mt-5">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                <div class="hero__content hero__content-2
+                                    p-relative z-index-1" style="z-index:3">
+                                    <h3 class="hero__title hero__title" style="white-space: nowrap; display: flex;">{% trans 'Программа обучения' %}<br>
+                                    </h3>
+                                    <h3 class="hero__title hero__title">
+                                        <span class="yellow-shape">{% trans 'Almaty Business 2024' %}<br>
+                                            <img src="{% static 'img/yellow-bg.png' %}" alt="Желтый">
+                                        </span>
+                                    </h3>
+                                    <h4 class="mt-5">{% trans 'Обучение без границ!' %}<br>{% trans 'Мы обучаем, Вы зарабатываете!' %}</h4>
+                                    <h4 class="mt-5 text-start mb-4">{% trans 'Бесплатная программа обучения' %} <br>{% trans 'для предпринимателей города Алматы' %} <br>
+                                           
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                <div class="hero__thumb-wrapper mb--120" style="margin-bottom: -30px;">
+                                    <div class="hero__thumb-2 scene" style="transform: translate3d(0px, 0px, 0px);transform-style:preserve-3d;backface-visibility:hidden;">
+                                        <img class="hero-big" style="width: 150%;" src="{% static 'img/DSC0002121.png' %}"  alt="">
+                                        <img class="hero-shape-purple" src="{% static 'img/hero-shape-purple.png' %}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- section about education -->
+            <section class="services__area padding_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3">
+                            <div class="section__title-wrapper section-padding mb-5 text-center">
+                                <h2 class="section__title">{% trans 'Это лучшее решение,' %}
+                                    <span class="yellow-shape">
+                                        {% trans 'ЕСЛИ ВЫ...' %}
+                                        <img src="{% static 'img/yellow-bg.png' %}" alt="Желтый">
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="services__item blue-bg-4 mb-5">
+                                <div class="services__icon p-0 mb-2 d-flex justify-content-center">
+                                    <span class="material-symbols-outlined" style="font-size: 40px; color: #fff;">settings</span>
+                                </div>
+                                <div class="services__content">
+                                    <h3 class="services__title text-center">
+                                        <a href="" style="font-size:17px;">
+                                            {% trans 'Действующий' %}<br> {% trans 'предприниматель в Алматы' %}
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="services__item green-bg mb-5">
+                                <div class="services__icon p-0 mb-2 d-flex justify-content-center">
+                                    <span class="material-symbols-outlined" style="font-size: 40px; color: #fff;">rocket_launch</span>
+                                </div>
+                                <div class="services__content">
+                                    <h3 class="services__title text-center">
+                                        <a href="" style="font-size: 17px;"> 
+                                            {% trans 'Стремитесь создать прибыльный и' %}<br> {% trans 'устойчивый бизнес' %}
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="services__item  purple-bg  mb-5">
+                                <div class="services__icon p-0 mb-2 d-flex justify-content-center">
+                                    <span class="material-symbols-outlined" style="font-size: 40px; color: #fff;">local_fire_department</span>
+                                </div>
+                                <div class="services__content">
+                                    <h3 class="services__title text-center">
+                                        <a href="" style="font-size: 17px;">
+                                            {% trans 'Следите за новыми' %}<br> {% trans 'трендами в отрасли' %}
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="services__item pink-bg mb-5">
+                                <div class="services__icon p-0 mb-2 d-flex justify-content-center">
+                                    <span class="material-symbols-outlined" style="font-size: 40px; color: #fff;">payments</span>
+                                </div>
+                                <div class="services__content">
+                                    <h3 class="services__title text-center">
+                                        <a href="" style="font-size: 17px;">
+                                            {% trans 'Мечтаете зарабатывать' %}<br> {% trans 'больше' %}
+                                        </a>
+                                    </h3>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="services__item  blue-bg-4 mb-5">
+                                <div class="services__icon p-0 mb-2 d-flex justify-content-center">
+                                    <span class="material-symbols-outlined" style="font-size: 40px; color: #fff;">trending_down</span>
+                                </div>
+                                <div class="services__content">
+                                    <h3 class="services__title text-center">
+                                        <a href="" style="font-size:17px;">
+                                            {% trans 'Хотите разобраться, почему' %}<br> {% trans 'ваши расходы превышают доходы' %}
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                            <div class="services__item green-bg mb-5">
+                                <div class="services__icon p-0 mb-2 d-flex justify-content-center">
+                                    <span class="material-symbols-outlined" style="font-size: 40px; color: #fff;">neurology</span>
+                                </div>
+                                <div class="services__content">
+                                    <h3 class="services__title text-center">
+                                        <a href="" style="font-size: 17px;">
+                                            {% trans 'Решили прокачать' %}<br> {% trans 'свои навыки' %}
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="services__area padding_section" data-bs-spy="scroll" data-bs-target="#statement-btn" data-bs-offset="0" tabindex="0" style="padding-top: 0px;">
+
+            <div class="container">
+                    <div class="section__title-wrapper section-padding mb-5 text-center">
+                        <h2 class="section__title">{% trans 'Описание' %}
+                            <span class="yellow-bg">
+                                {% trans 'курса' %}
+                                <span class="material-symbols-outlined" style="font-size: 40px; margin-left:-20px; position:relative; top:-12px; color:#63aa48;">school</span>
+                                <img src="{% static 'img/yellow-bg.png' %}" alt="">
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills me-3 col-lg-3 col-xxl-3 col-xl-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                              {% for course_specification in course_specifications %}
+                                <button class="btn-outline btn btn-course mb-1 {% if forloop.first %}active{% else %}{% endif %}" id="v-pills-{{ course_specification.id }}-tab" data-bs-toggle="pill" data-bs-target="#v-pills-{{ course_specification.id }}" type="button" role="tab" aria-controls="v-pills-{{ course_specification.id }}" aria-selected="false"><b>{{ course_specification.name }}</b> </button>
+                              {% endfor %}
+                            </div>
+                            <div class="tab-content col-lg-11 col-xxl-11 col-xl-11" id="v-pills-tabContent">
+                              {% for course_specification in course_specifications %}
+                                <div class="tab-pane fade show {% if forloop.first %}active{% endif %}" id="v-pills-{{ course_specification.id }}" role="tabpanel" aria-labelledby="v-pills-{{ course_specification.id }}-tab" tabindex="0">
+                                      <div class="row justify-content-around">
+                                        <div class="col-xxl-11 col-xl-11 col-lg-11 pe-2" style="border-left: 6px solid #63aa48; box-shadow: 0 30px 40px 0 rgba(3,24,128,.2); border-radius: 6px;">
+                                            <div class="row py-1 px-2" style="padding:15px!important; min-height: 200px; font-size: 1.3rem; color: #000000;">
+                                                {{ course_specification.description }}
+                                            </div>
+                                        </div>
+                                        
+                                      </div>
+                                </div>
+                              {% endfor %}
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="mt-5">
+                <h2 class="section__title text-center my-5">
+                    {% trans 'Как стать участником' %}
+                    <span class="yellow-shape">
+                        {% trans 'программы' %}
+                            <img src="{% static 'img/yellow-bg.png' %}" alt="Желтый">
+                    </span>
+                </h2>
+                <div class="container">
+                    <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                        <div class="events__item mb-3 hover__active">
+                            <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
+                                <div class="events__content" style="color:#000">
+                                    <div class="events__meta fw-bold">{% trans 'Шаг 1' %}</div>
+                                    <div class="events__title">{% trans 'Подать заявку (убедившись, что контактные данные указаны корректно и номер телефона привязан к WhatsApp)' %}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+                        <div class="events__item mb-3 hover__active ">
+                            <div class="events__item-inner d-sm-flex align-items-center justify-content-between white-bg">
+                                <div class="events__content" style="color:#000">
+                                    <div class="events__meta fw-bold">{% trans 'Шаг 2' %}</div>
+                                    <div class="events__title">{% trans 'В течение 3-х дней с вами свяжется менеджер и пригласит на обучение' %}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <!-- section что такое edu.almaty.business -->
+            <section class="what__area grey-bg padding_section" style="padding-top: 40px;">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                            <div class="section__title-wrapper text-center" style="margin-bottom:60px;">
+                                <h2 class="section__title">
+                                    <span class="yellow-shape">
+                                        {% trans 'Эксперты' %}
+                                        <img src="{% static 'img/yellow-bg.png' %}"
+                                            alt="Желтый">
+                                    </span>
+                                    {% trans 'программы' %}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itc-slider" data-autoplay="true" data-interval="7000" data-loop="true" data-slider="itc-slider">
+                        <div class="itc-slider__wrapper">
+                            <div class="itc-slider__items">
+
+                                {% for teacher in teachers %}
+
+                                  <div class="itc-slider__item">
+                                    <div class="col-11">
+                                        <div class="what__item transition-3 mb-30 p-relative fix" style="margin-bottom:30px; height: 320px;">
+                                            <div class="what__thumb w-img">
+                                                <img src="/media/{{ teacher.photo }}" alt="">
+                                            </div>
+                                            <div class="what__content p-absolute text-center">
+                                                <button type="button" data-bs-toggle="modal" data-bs-target="#teacher-{{ teacher.id }}" class="e-btn btn e-btn-border-2 text-capitalize">{{ teacher }}</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                {% endfor %}
+                                
+                            </div>
+
+                            <button class="itc-slider__btn itc-slider__btn_prev" style="border-radius: 6px;"></button>
+                            <button class="itc-slider__btn itc-slider__btn_next" style="border-radius: 6px;"></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="videolist" style="margin-bottom: 20px;">
+                </div>
+            </section>
+            <!-- section что такое edu.almaty.business end -->
+
+            
+
+            <!-- section course  -->
+            {% comment %}<section class="course__area padding_section" id="videolist" style="padding-top: 50px;">
+                <div class="container">
+
+                    <div class="d-flex flex-column">
+
+                        <div class="row ">
+                            <div class="section__title-wrapper justify-content-center d-flex" style="margin-bottom:20px">
+                                <h2 class="section__title">
+                                    <span class="yellow-bg yellow-bg-big">
+                                        {% trans 'Видеоуроки' %}
+                                        <img src="{% static 'img/yellow-bg.png' %}" alt="">
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="course__menu" style="margin-bottom:20px">
+                                <div class="masonary-menu filter-button-group d-flex justify-content-between">
+                                    <button class=" d-block" data-filter="*">
+                                        {% trans 'Все' %}
+                                        
+                                    </button>
+                                  {% for video_course_category in video_course_categories %}
+                                    <button class="d-block" data-filter="{{ video_course_category.id }}">
+                                      {{ video_course_category.name }}
+                                    </button>
+                                  {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row grid area_filter">
+                      {% for video_course in video_courses %}
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 grid-item {{ video_course.video_course_category.id }}">
+                          <div class="course__item white-bg fix">
+                            <div class="course__thumb w-img p-relative fix">
+                                <iframe width="100%" height="250" src="{{ video_course.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="course__tag">
+                                    <a href="#">{{ video_course.video_course_category }}</a>
+                                </div>
+                            </div>
+                            <div class="course__content">
+                                    <div class="course__meta d-flex h-100 align-items-center justify-content-between">
+                                        <div class="course__lesson">
+                                            <span class="d-flex flex-row justify-content-between align-items-center">
+                                                <i class="material-symbols-outlined">import_contacts</i>
+                                                {{ video_course.name }}
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <h3 class="">
+                                        <h6>
+                                            {{ video_course.description }}
+                                        </h6>
+                                    </h3>
+                                </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                </div>
+                <div id="statement" style="margin-bottom: 42px;"></div>
+            </section>
+            {% endcomment %}
+            <!-- section course  end-->
+            {% include 'core/form.html' %}
+
+            <!-- slider -->
+            <h2 class="section__title text-center mt-5">
+                <span class="yellow-shape">
+                    {% trans 'отзывы' %}
+                    <img src="{% static 'img/yellow-bg.png' %}"alt="Желтый">
+                </span>
+            </h2>
+            <section class="testimonial__area padding_section" style="padding-top: 20px;">
+                <div class="container">
+                    <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="false">
+                        <div class="itc-slider__wrapper">
+                          <div class="itc-slider__items">
+                            <div class="itc-slider__item">
+                                <div class="col-11">
+                                    <iframe width="100%" height="300" style="border-radius: 6px;" src="https://www.youtube.com/embed/W0jqcKuSBhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                
+                            </div>
+                            <div class="itc-slider__item">
+                                <div class="col-11">
+                                    <iframe width="100%" height="300" style="border-radius: 6px;" src="https://www.youtube.com/embed/-zhBgEQk_oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="itc-slider__item">
+                                <div class="col-11">
+                                    <iframe width="100%" height="300" style="border-radius: 6px;" src="https://www.youtube.com/embed/amb5uJRoG6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="itc-slider__item">
+                                <div class="col-11">
+                                    <iframe width="100%" height="300" style="border-radius: 6px;" src="https://www.youtube.com/embed/BO14ndh5eRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="itc-slider__item">
+                                <div class="col-11">
+                                    <iframe  width="100%" height="300" style="border-radius: 6px;" src="https://www.youtube.com/embed/amb5uJRoG6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="itc-slider__btn itc-slider__btn_prev" style="border-radius: 6px;"></button>
+                        <button class="itc-slider__btn itc-slider__btn_next" style="border-radius: 6px;"></button>
+                      </div>
+                </div>
+            </section>
+            <!-- slider end -->
+
+            <!-- start course -->
+            <section class="why__area grey-bg padding_section">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-6 col-md-8">
+
+                            <div class="why__content" style="padding-right: 50px; margin-top: 40px;">
+
+                                <div class="section__title-wrapper"
+                                    style="margin-bottom:30px;">
+
+                                    <h2 class="section__title">
+                                        {% trans 'Станьте' %}<br>
+                                        <span class="yellow-shape">
+                                            {% trans 'экспертом' %} <br>
+                                            <img src="{% static 'img/yellow-bg.png' %}"
+                                                alt="Желтый">
+                                        </span>
+                                        {% trans 'программы обучения' %}<br>
+                                        Almaty Business
+                                    </h2>
+                                </div>
+
+                                <div class="why__btn">
+                                    <a href="{% url 'expert' %}" class="e-btn e-btn-3" style="margin-right:30px">{% trans 'Присоединяйтесь' %}</a>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8">
+                            <div class="why__thumb">
+                                <img
+                                    src="{% static 'img/DSC02673.png' %}" class="w-100" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- start course -->
+
+
+            <nav id="statement-btn" class="app-block" >
+                <a href="#statement" class="btn btn-lg text-center align-items-center bordered" style="box-shadow: 0 30px 40px 0 rgba(3,24,128,.2);">{% trans 'Подать Заявку' %}</a>
+            </nav>
+            <script src="/static/js/it-slider.js" defer></script>
+        </main>
+  {% endblock body %}
+{% block modals %}
+  {% for teacher in teachers %}
+    <div class="modal fade" id="teacher-{{ teacher.id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content" style="background: #0e382d;">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-12 col-md-8">
+                <iframe src="{{ teacher.link }}" width="100%" height="650" allow="autoplay"></iframe>
+              </div>
+              <div class="col-md-4 col-12">
+                <ol class="list-group list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                          <div class="fw-bold">{{ teacher }}</div>
+                      </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="">
+                        <div class="fw-bold"></div>
+                        <p>{{ teacher.bio|safe }}</p>
+                      </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                          <div class="fw-bold">{% trans 'Курсы' %}</div>
+                      </div>
+                  </li>
+                  <li class="list-group-item d-flex  justify-content-between  align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold"></div>
+                        {% for course in teacher.courses.all %}
+                          {{ course.name }}<br>
+                        {% endfor %}
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Опыт в бизнесе</div>
+                        {{ teacher.experience }}
+{#                      <a href="#" style="text-decoration: revert;">instagram</a><br>#}
+{#                      <a href="#" style="text-decoration: revert;">youtube</a><br>#}
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" style="background-color: #63aa48; color: #fff;" data-bs-dismiss="modal">{% trans 'Закрыть' %}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {% endfor %}
+{% endblock modals %}

@@ -1,0 +1,47 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    {% include 'head.html' %}
+    {% block head %}
+    {% endblock head %}
+  </head>
+  <body>
+    <div class="container text-center color-white">
+        <h1 > Дорогие посетители!</h1>
+        <p>
+            В данный момент наш сайт находится на техническом обслуживании. Мы приносим извинения за временные неудобства.
+        </p>
+        <span class="material-symbols-outlined">
+            settings
+            </span>
+    </div>
+  </body>
+    
+<style>
+    body{
+        background: #63aa48;
+        display: flex;
+        justify-content: center;
+    }
+    body .container{
+        position: absolute;
+        top: 35%;
+        color: #fff;
+
+    }
+    h1{
+        color: #fff;
+        padding-bottom: 30px;
+    }
+    p{
+        color: #fff;
+        padding-bottom: 30px;
+        font-size: 28px; 
+    }
+    span{
+        font-size: 110px!important;
+    }
+</style>
+</html>

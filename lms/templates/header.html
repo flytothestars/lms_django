@@ -1,0 +1,157 @@
+{% load static i18n %}
+<header>
+    <div class="header__area header__transparent header__padding-2 sticky" id="header-sticky">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- left header -->
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6">
+                    <div class="header__left d-flex">
+                        <div class="logo">
+                            <a href="{% url 'index' %}">
+                                <img id="brand-logo" src="{% static 'img/new_brand.svg' %}" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- left header end-->
+
+                <!-- right header -->
+                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-8 col-6">
+                    <div class="header__right d-flex align-items-center justify-content-end">
+                        <div class="main-menu col-10 main-menu-2{% if request.path == '/' %}{% else %} main-menu-3{% endif %}">
+                            <nav id="mobile-menu" class="justify-content-around w-100 d-flex">
+                                <ul class="d-block">
+                                    <li class=""><a href="{% url 'index' %}">{% trans 'Главная' %}</a></li>
+                                    <li class=""><a href="{% url 'about' %}">{% trans 'О нас' %}</a></li>
+                                    {% if request.path == '/ru/' or request.path == '/kk/' %}
+                                    <!-- <li class=""><a href="#videolist">{% trans 'Видеоуроки' %}</a></li> -->
+                                    <li class=""><a href="#comment">{% trans 'Отзывы' %}</a></li>
+                                    {% endif %}
+                                    <!-- <li class=""><a href="questionnaire.html">Анкета</a></li>   -->
+                                    </ul>
+                                    <ul class="d-block">
+                                    <li class="">
+                                        <a href="tel:8-777-313-75-75" class="d-flex justify-content-between align-items-center position-relative" style="top: 4px;">
+                                            <div  class="material-symbols-outlined m-0 p-0" style="font-size:19px" >call</div>
+                                            8(777)313-75-75
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <form action="{% url 'set_language' %}" method="post">
+                                            {% csrf_token %}
+                                            <input name="next" type="hidden" value="{{ redirect_to}}">
+
+                                            <select name="language" id="lang" class="language" >
+                                                {% get_current_language as LANGUAGE_CODE %}
+                                                {% get_available_languages as LANGUAGES %}
+                                                {% get_language_info_list for  LANGUAGES as languages %}
+                                                {% for language in languages %}
+                                                <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected {% endif %}>{{language.name_local}}({{language.code}})</option>
+                                                {% endfor %}
+                                            </select>
+                                            <input type="submit" value="Go">
+                                        </form>
+                                    </li>
+                                    <!-- <li class=""><a href="questionnaire.html">рус</a></li> -->
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="sidebar__menu d-xl-none">
+                            <div class="sidebar-toggle-btn ms-3" id="sidebar-toggle">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right header end-->
+
+            </div>
+        </div>
+    </div>
+</header>
+<div class="body-overlay"></div>
+<div class="sidebar__area">
+    <div class="sidebar__wrapper">
+        <div class="sidebar__close">
+            <button class="sidebar__close-btn" id="sidebar__close-btn">
+                <span class="material-symbols-outlined">close</span>
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+                <div class="sidebar__content">
+                
+                    <div class="logo mb-3">
+                        <a href="{% url 'index' %}">
+                            <img id="brand-logo" src="{% static 'img/brand.svg' %}" alt="logo">
+                        </a>
+                    </div>
+                
+                    <div class="mobile-menu fix mean-container">
+                        <div class="mean-bar">
+                            <a href="#nav" class="meanmenu-reveal d-inline" style="right: 0px; left: auto;">
+                            <span>
+                                <span>
+                                    <span></span>
+                                </span>
+                            </span>
+                        </a>
+                            <nav class="mean-nav">
+                               <ul style="display: none;">
+                                    <li class=""><a href="{% url 'index' %}">{% trans 'Главная' %}</a></li>
+                                    <li class=""><a href="{% url 'about' %}">{% trans 'О нас' %}</a></li>
+                                    {% if request.path == '/ru/' or request.path == '/kk/' %}
+                                    <li class=""><a href="#videolist">{% trans 'Видеоуроки' %}</a></li>
+                                    <li class=""><a href="#comment">{% trans 'Отзывы' %}</a></li>
+                                    {% endif %}
+                                    <li class=""><a href="tel:8-777-313-75-75" style="display:flex">
+                                        <span class="material-symbols-outlined m-0 p-0">call</span>
+                                        <span>
+                                            8(777)313-75-75
+                                        </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <form action="{% url 'set_language' %}" method="post">
+                                            {% csrf_token %}
+                                            <input name="next" type="hidden" value="{{ redirect_to}}">
+
+                                            <select name="language" id="lang" class="language" >
+                                                {% get_current_language as LANGUAGE_CODE %}
+                                                {% get_available_languages as LANGUAGES %}
+                                                {% get_language_info_list for  LANGUAGES as languages %}
+                                                {% for language in languages %}
+                                                <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected {% endif %}>{{language.name_local}}({{language.code}})</option>
+                                                {% endfor %}
+                                            </select>
+                                            <input type="submit" value="Go">
+                                        </form>
+                                    </li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script>
+    // mobile menu script 
+    let mobileBtn = document.getElementById("sidebar-toggle");
+    let mobileCloseBtn = document.getElementById("sidebar__close-btn")
+    let mombileMenu = document.getElementsByClassName("sidebar__area");
+    let mobileBg = document.getElementsByClassName("body-overlay")
+ 
+    mobileBtn.addEventListener("click", function (){
+        mombileMenu[0].classList.toggle("sidebar-opened");
+        mobileBg[0].classList.toggle("opened");
+    });
+
+    mobileCloseBtn.addEventListener("click", function (){
+        mombileMenu[0].classList.toggle("sidebar-opened");
+        mobileBg[0].classList.toggle("opened");
+    });
+
+</script>

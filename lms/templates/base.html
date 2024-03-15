@@ -1,0 +1,27 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'head.html' %}
+    {% block head %}
+    {% endblock head %}
+  </head>
+  <body>
+  {% include 'header.html' %}
+  {% block body %}
+    {% block header %}
+    {% endblock header %}
+    
+    {% endblock body %}
+    {% include 'footer.html' %}
+
+    <script src="{% static 'js/app.min.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    {% block scripts %}
+    {% endblock scripts %}
+
+    {% block modals %}
+    {% endblock modals %}
+  </body>
+</html>
